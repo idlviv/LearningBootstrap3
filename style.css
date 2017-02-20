@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.bs-cont {
+    background-color: goldenrod;
+    height: 100vh;
+}
+
+.bs-col {
+    height:100vh;
+}
+.row {
+    height:100vh;
+}
+
+/*.bs-col:nth-child(odd) {*/
+    /*background-color: forestgreen;*/
+/*}*/
+
+/*.bs-col:nth-child(even) {*/
+    /*background-color: royalblue;*/
+/*}*/
+
+.leftBar {
+    background-color: royalblue;
+}
+.mainBar {
+    background-color: greenyellow;
+}
+.rightBar {
+    background-color: indianred;
+}
+
+@media (max-width: 992px) {
+    .leftBar, .mainBar {
+        height: 80vh;
+    }
+
+    .rightBar {
+        height: 20vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .leftBar {
+        height: 20vh;
+    }
+    .mainBar {
+        height: 60vh;
+    }
+    .rightBar {
+        height: 20vh;
+    }
+}
