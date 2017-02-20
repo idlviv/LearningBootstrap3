@@ -11,8 +11,9 @@ body {
     height:100vh;
 }
 .row {
-    height:100vh;
+    height:100%;
 }
+
 
 /*.bs-col:nth-child(odd) {*/
     /*background-color: forestgreen;*/
@@ -27,6 +28,11 @@ body {
 }
 .mainBar {
     background-color: greenyellow;
+}
+.post-news {
+    background-color: darksalmon;
+    height: 100px;
+    border: 5px solid coral;
 }
 .rightBar {
     background-color: indianred;
@@ -48,8 +54,5 @@ body {
     }
     .mainBar {
         height: 60vh;
-    }
-    .rightBar {
-        height: 20vh;
     }
 }
